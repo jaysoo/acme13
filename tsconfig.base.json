@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@acme13/blib": ["libs/blib/src/index.ts"],
+      "@acme13/ui-button": ["libs/ui-button/src/index.ts"],
+      "@acme13/utils": ["libs/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

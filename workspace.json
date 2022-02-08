@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "projects": {
+    "blib": "libs/blib",
+    "demo": "apps/demo",
+    "demo-e2e": "apps/demo-e2e",
+    "ui-button": "libs/ui-button",
+    "ui-button-e2e": "apps/ui-button-e2e",
+    "utils": "libs/utils"
+  }
+}
